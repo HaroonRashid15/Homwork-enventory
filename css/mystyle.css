@@ -1,0 +1,25 @@
+.new_item_form {
+    background-color: #346f86;
+    padding-top: 100px;
+    margin: 0px auto;
+    width: 300px;
+}
+
+.new_item_form form div input {
+    padding: 5px;
+}
+
+header::after {
+    content: "";
+    display: block;
+}
+
+header {
+    background-color: #000000da;
+    overflow: hidden;
+    text-align: center;
+}
+
+header h1 {
+    float: right;
+}
