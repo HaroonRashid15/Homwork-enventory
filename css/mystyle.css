@@ -1,8 +1,13 @@
 .new_item_form {
-    background-color: #346f86;
+    background-color: #cbd2d4;
     padding-top: 100px;
     margin: 0px auto;
     width: 300px;
+    height: 400px;
+}
+
+body {
+    background-color: rgb(180, 181, 190);
 }
 
 .new_item_form form div input {
@@ -15,9 +20,8 @@ header::after {
 }
 
 header {
-    background-color: #000000da;
+    background-color: #3b4e64d7;
     overflow: hidden;
-    text-align: center;
 }
 
 header h1 {

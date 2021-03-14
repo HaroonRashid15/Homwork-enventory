@@ -47,7 +47,7 @@ if(isset($_GET['q'])){
                 <input type="text" name="desc" class="form-control" value="<?php echo($desc)?>" id="desc">
             </div>
             <br>
-            <input type="submit" value="<?php if(isset($_GET['q'])) echo('Update'); else{ echo('Add');}?>" class="btn btn-primary form-control">
+            <input type="submit" value="<?php if(isset($_GET['q'])) echo('Update'); else{ echo('A   dd');}?>" class="btn btn-primary form-control">
         </form>
     </div>
     

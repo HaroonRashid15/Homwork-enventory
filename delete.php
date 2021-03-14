@@ -6,6 +6,6 @@ if(isset($_GET['id'])){
     if($sql){
         header("Location:index.php");
     }else{
-        header("Location.php?msg=<h6 style='color:red'>The item wasn't deleted!</h6>");
+        header("Location:index.php?msg=<h6 style='color:red'>The item wasn't deleted!</h6>");
     }
 }
